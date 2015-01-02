@@ -1,1 +1,0 @@
-../../share/pyshared/xdg2.py

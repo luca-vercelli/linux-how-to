@@ -1,0 +1,59 @@
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <title>Linux HowTo</title>
+   <script type="text/javascript" src="inc.js" ></script>
+</head>
+<body onload="load_labels();create_table();">
+  <h1 id="title"></h1>
+  <table id="main_table">
+    <thead style="font-weight:bold">
+    <td></td>
+    <td id="application"></td>
+    <td id="filename"></td>
+    <td id="description"></td>
+    <td></td>
+    </thead>
+  </table>
+</body>
+<script><!--
+
+//We expect inc.js set two arrays, labels and apps
+
+function load_labels() {
+    for (var key in labels) {
+        var obj = document.getElementById(key);
+        if (obj != null)
+            obj.appendChild(document.createTextNode(labels[key]));
+    }
+}
+
+function create_table(){
+    var t = document.getElementById("main_table");
+    for (var i = 0; i < app.length; ++i) {
+        var tr = document.createElement("tr");
+        var tdn = document.createElement("td");
+        var txn = document.createTextNode(app[i].name);
+        var tdf = document.createElement("td");
+        var txf = document.createTextNode(app[i].filename);
+        var tds = document.createElement("td");
+        var txs = document.createTextNode(app[i].comment);
+        var tdi = document.createElement("td");
+        var img = document.createElement("img");
+        img.src = app[i].icon;
+        tdn.appendChild(txn);
+        tdf.appendChild(txf);
+        tds.appendChild(txs);
+        tdi.appendChild(img);
+        tr.appendChild(tdi);
+        tr.appendChild(tdn);
+        tr.appendChild(tdf);
+        tr.appendChild(tds);
+        t.appendChild(tr);
+    }
+}
+
+-->
+</script>
+</html>
+

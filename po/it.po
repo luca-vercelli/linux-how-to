@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxHowTo\n"
+"POT-Creation-Date: 2014-12-11 13:47+0100\n"
+"PO-Revision-Date: 2014-12-11 14:12+0100\n"
+"Last-Translator: Luca Vercelli <luca.vercelli.to@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: it\n"
+
+msgid "Your downloads"
+msgstr "Cartella Downloads"
+
+msgid "Browse internet"
+msgstr "Internet"
+
+msgid "How to do what?"
+msgstr "Come fare cosa?"
+
+msgid "Documents"
+msgstr "Cartella Documenti"
+
+msgid "Word processing"
+msgstr "Word processing"
+
+msgid "CD/DVD copy"
+msgstr "Copia CD/DVD"
+
+msgid "Open on startup"
+msgstr "Apri all'avvio"

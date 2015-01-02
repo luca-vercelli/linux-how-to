@@ -1,0 +1,18 @@
+Source: linux-how-to
+Section: doc
+Priority: optional
+Maintainer: Luca Vercelli <luca.vercelli.to@gmail.com>
+Build-Depends:
+ debhelper (>= 8)
+Standards-Version: 3.9.4
+Homepage:
+
+Package: linux-how-to
+Architecture: linux-any
+Depends: ${misc:Depends}, python (<3.0), xdg-utils
+Recommends: 
+Description: Linux How To
+ Application for helping Linux beginners.
+ Its intended use is to be installed in laptops where Linux is pre-installed.
+
+

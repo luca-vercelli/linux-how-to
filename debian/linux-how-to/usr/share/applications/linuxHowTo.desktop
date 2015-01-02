@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Linux How To
+GenericName=Help
+Comment=First-time Linux helper
+Categories=System;
+MimeType=
+Exec=linuxHowto
+Icon=brasero
+StartupNotify=true
+Terminal=false
+Type=Application
+
